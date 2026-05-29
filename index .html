@@ -93,6 +93,31 @@
     font-size: 2.5rem;
     margin-bottom: 2rem;
 }
+
+.gradeInstrumentos {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: 2rem;
+}
+
+.cartaoInstrumento {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 300px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.cartaoInstrumento :hover {
+    transform: translateY(-5px);
+}
+
+.nomeInstrumento {
+    color: #333333;
+
+}
 </style>
 </head>
 <body>
@@ -158,46 +183,38 @@
     <!--Seção Instrumentos-->
     <section id="instrumentos">
         <h2>Cátalogo de Instrumentos</h2>
+        <div class="gradeInstrumentos">
+            <article class="cartaoInstrumento">
+                <h3>Guitarra Eletrica StratoCaster</h3>
+                <img 
+                src="GUITARRA ELETRICA.jpg"
+                alt="imagem Guitarra Elétrica stratocaster"
+                width="200"
+                style="border-radius: 4px; margin-bottom: 1rem;"
+                >
+                <p><strong>Marca: </strong>Feder</p>
+                <p>Guitarra clássica de alta performace, ideal para rock e blues</p>
+                <p style="color: #d32f2f; font-weight: bold; font-size: 1.2rem;"><em>Preço: R$ 3.500,00</em>
+                </p>
+                <a href="#" class="botaoPrincipal">Adicionar ao carrinho</a>
+            </article>
+    
+            <article  class="cartaoInstrumento">
+                <h3>Bateria Acústica Profissional</h3>
+                <img 
+                src="KIT DE BATERIA (2).jpg" 
+                alt="Bateria Acústica Profissional"
+                width="200"
+                style="border-radius: 4px; margin-bottom: 1rem;"
+                >
+                <p><strong>Marca: </strong>Pearl</p>
+                <p>Kit com bumbo, caixas, surdo e pratos. Som encorpado.</p>
+                <p style="color: #d32f2f; font-weight: bold; font-size: 1.2rem;"><em>Preço: R$ 5.200,00</em>
+                </p>
+                <a href="#" class="botaoPrincipal">Adicionar ao carrinho</a>
+            </article>
 
-        <article>
-            <h3>Guitarra Eletrica StratoCaster</h3>
-            <img 
-            src="GUITARRA ELETRICA.jpg"
-            alt="imagem Guitarra Elétrica stratocaster"
-            width="200"
-            >
-            <p>
-                <strong>Marca: </strong>Feder
-            </p>
-
-            <p>
-                Guitarra clássica de alta performace, ideal para rock e blues
-            </p>
-
-            <p>
-                <em>Preço: R$ 3.5oo,00</em>
-            </p>
-            <a href="#">Adicionar ao carrinho</a>
-        </article>
-
-        <article>
-            <h3>Bateria Acústica Profissional</h3>
-            <img 
-            src="KIT DE BATERIA.jpg" 
-            alt="Bateria Acústica Profissional"
-            width="200"
-            >
-            <p>
-                <strong>Marca: </strong>Pearl
-            </p>
-            <p>
-                Kit com bumbo, caixas, surdo e pratos. Som encorpado.
-            </p>
-            <p>
-                <em>Preço: R$ 5.200,00</em>
-            </p>
-            <a href="#">Adicionar ao carrinho</a>
-        </article>
+        </div>
     </section>
 
     <!--Seção de Depoimento-->
@@ -323,7 +340,7 @@
                     <img src="FACEBOOK.png" alt="facebook">
                 </a>
                 <a href="">
-                    <img src="YOTUBE.png" alt="yotube">
+                    <img src="YOTUBE (2).png" alt="yotube">
                 </a>
             </div>
         </div>
